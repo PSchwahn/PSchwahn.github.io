@@ -1,0 +1,39 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+
+      <div class="footer-col footer-col-1">
+
+        <ul class="contact-list">
+          <li class="p-name">Dr. Paul Schwahn</li>
+          <li>Bâtiment 307, Rue Michel Magat</li>
+	  <li>Faculté des Sciences d’Orsay, Université Paris-Saclay</li>
+	  <li>F-91405 Orsay Cedex</li>      
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+	<ul class="contact-list">
+          {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+	  <li>ORCID: <a href="https://orcid.org/{{ site.orcid  }}">{{ site.orcid }}</a></li>      
+        </ul>
+      </div>
+
+      <div class="footer-col">
+	This website is hosted by Github Pages and powered by Jekyll.
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
