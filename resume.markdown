@@ -20,5 +20,6 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Grants & Support
 
+* 2023/24: Member of the [*BRIDGES* project](https://anr.fr/Project-ANR-21-CE40-0017), funded by ANR grant [ANR-21-CE40-0017].
 * 2023: Supported by the [*Procope* program](https://www.campusfrance.org/fr/procope) (Project No. 48959TL).
 * 2022: Member of the DFG priority program *[SPP 2026 Geometry at Infinity](https://www.spp2026.de/members-guests/74-member-pages/paul-schwahn-msc)*.
