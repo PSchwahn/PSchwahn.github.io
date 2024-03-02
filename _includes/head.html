@@ -13,11 +13,35 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
-  <script src="/assets/mathjax-config.js" defer></script>
+  <script>
+  MathJax = {
+	tex: {
+	  macros: {
+	    RR: "\\mathbb{R}",
+	    dd: "\\mathrm{d}",
+	    Ric: "\\mathrm{Ric}",
+	    CC: "\\mathbb{C}",
+	    id: "\\mathrm{id}",
+	    Sym: "\\mathrm{Sym}",
+	    LL: "\\Delta_{\\mathrm{L}}",
+	    tr: "\\operatorname{tr}",
+	    End: "\\operatorname{End}",
+	    i: "\\mathrm{i}",
+	    firstkind: "\\widehat{R}",
+	    testmacro: "\\mathfrak{Poggo}",
+	  },
+	  environments: {
+	    braced: ["\\left\\{", "\\right\\}"]
+	  }
+	}
+  };
+  </script>
+  <!-- comment the following line out and it works. WHY? -->
+  <!-- <script type="text/javascript" src="{{ "/assets/mathjax-config.js" | relative_url }}"></script> -->
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6" defer></script>
   <script type="text/javascript" id="MathJax-script" defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
   <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
-  <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+  <script src="https://tikzjax.com/v1/tikzjax.js" defer></script>
 </head>
