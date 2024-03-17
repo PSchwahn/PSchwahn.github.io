@@ -32,7 +32,7 @@ In the aforementioned article[^koiso], Koiso studies among other things the _inf
 
 Let $$g$$ be an Einstein metric on $$M$$ -- that is, a Riemannian metric such that its Ricci tensor is proportional to $$g$$ itself:
 \\[\Ric_g=Eg,\\qquad E\in\RR.\\]
-When looking for interesting Riemannian metrics on a given manifold, Einstein metrics are kind of the sweet spot, because the Einstein condition sits comfortably inbetween the very rigid condition of _constant of sectional curvature_ on the stronger side and the quite lax condition of _constant scalar curvature_ on the weaker side.[^einsteincondition]. So naturally people want to study the following question:
+When looking for interesting Riemannian metrics on a given manifold, Einstein metrics are kind of the sweet spot, because the Einstein condition sits comfortably inbetween the very rigid condition of _constant of sectional curvature_ on the stronger side and the quite lax condition of _constant scalar curvature_ on the weaker side.[^einsteincondition] So naturally people want to study the following question:
 
 **Question 1**: What are the Einstein metrics on a given manifold $$M$$? In particular, how many are there?
 
