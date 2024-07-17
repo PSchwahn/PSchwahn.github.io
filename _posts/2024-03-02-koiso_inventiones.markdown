@@ -67,8 +67,10 @@ We may now ask the same questions as above: Given a complex structure on $$M$$, 
 In order to define what it means to be orthogonal to orbits of the diffeomorphism group, we however need a metric. So let $$g$$ be a Riemannian metric on $$M$$ that is _compatible_ with $$J$$ -- this just means that the endomorphism $$J$$ is orthogonal with respect to $$g$$, i.e.
 \\[g(JX,JY)=g(X,Y)\\]
 for all vector fields $$X,Y$$. Differentiating the conditions $$J_t^2=-\id_{TM}$$ and $$N_{J_t}=0$$ together with the tranversality condition yields a first order jet $$I\in\Gamma(\End TM)$$ satisfying
-\\[ IJ+JI=0,\qquad d_\Theta I=0,\qquad\delta_gI=0.\\]
-We call such an $$I$$ an _(essential) infinitesimal complex deformation_ (ICD). The operator $$d_\Theta$$ is the coboundary operator for the sheaf cohomology of the sheaf $$\Theta$$ of germs of holomorphic vector fields, and indeed the space of ICD is canonically isomorphic to the first cohomology group $$H^1(M,\Theta)$$. This establishes the connection to the Kodaira--Spencer deformation theory!
+\\[ IJ+JI=0,\qquad \bar\partial^\nabla I=0,\qquad(\bar\partial^\nabla)^\ast I=0.\\]
+We call such an $$I$$ an _(essential) infinitesimal complex deformation_ (ICD). The operator $$\bar\partial^\nabla$$ is the coboundary operator for the _Dolbeault complex_[^dolbeault]
+\\[ 0\to\Gamma(T^{1,0}M)\stackrel{\bar\partial^\nabla}{\to}\Omega^{0,1}(M,T^{1,0}M)\stackrel{\bar\partial^\nabla}{\to}\Omega^{0,2}(M,T^{1,0}M)\stackrel{\bar\partial^\nabla}{\to}\ldots, \\]
+in which $$I$$ is identified with an element of $$\Omega^{0,1}(M,T^{1,0}M)$$. Thus $$I$$ corresponds to an element of the cohomology $$H^{0,1}(M,T^{1,0}M)$$ of this complex, which is canonically isomorphic to the sheaf cohomology $$H^1(M,\Theta)$$ of the sheaf $$\Theta$$ of holomorphic vector fields on $$M$$. This establishes the connection to the Kodaira--Spencer deformation theory!
 
 In constract to the deformation theory of Einstein metrics, the integrability obstructions are much better understood: they manifest as elements of the second cohomology group $$H^2(M,\Theta)$$ -- in particular, if $$H^2(M,\Theta)=0$$, then _every_ ICD is integrable into a curve of complex structures.
 
@@ -90,9 +92,9 @@ This is a mouthful, so let's break it down: Anti-symmetric just means that $$I$$
 \\[\Lambda^2T^\ast M^\CC=\Lambda^{2,0}\oplus\Lambda^{1,1}\oplus\Lambda^{2,0}\\]
 according to the action of $$J$$. The (complexified) bundles of hermitian/anti-hermitian 2-forms are then just $$\Lambda^{1,1}$$ and $$\Lambda^{(2,0)\oplus(0,2)}:=\Lambda^{2,0}\oplus\Lambda^{0,2}$$, respectively.
 
-So the statement above may be reformulated as: any real section $$I\in\Omega^{(2,0)\oplus(0,2)}(M)$$ is an ICD if and only if $$\nabla I=0$$. Moreover, Koiso claims that this is the case precisely if $$I$$ is _harmonic_, i.e. $$\Delta I=0$$. And since we're on a Kähler manifold, where the Hodge--deRham Laplacian $$\Delta=d^\ast d+dd^\ast$$ coincides with twice the $$\bar\partial$$-Laplacian $$\Delta_{\bar\partial}=\bar\partial^\ast\bar\partial+\bar\partial\bar\partial^\ast$$, this means that (the (2,0)-part of) $$I$$ is _holomorphic_ and the space of anti-symmetric ICD is isomorphic to the Dolbeault cohomology group $$H^{2,0}(M,\RR)$$.
+So the statement above may be reformulated as: any real section $$I\in\Omega^{(2,0)\oplus(0,2)}(M)$$ is an ICD if and only if $$\nabla I=0$$. Moreover, Koiso claims that this is the case precisely if $$I$$ is _harmonic_, i.e. $$\Delta I=0$$. And since we're on a Kähler manifold, where the Hodge--deRham Laplacian $$\Delta=d^\ast d+dd^\ast$$ coincides with twice the $$\bar\partial$$-Laplacian $$\Delta_{\bar\partial}=\bar\partial^\ast\bar\partial+\bar\partial\bar\partial^\ast$$, this means that (the (2,0)-part of) $$I$$ is _holomorphic_ and the space of anti-symmetric ICD is isomorphic to the Dolbeault cohomology group $$H^{2,0}(M,\CC)$$.
 
-It took some time for people to realize that this cannot be true. As pointed out by Dai--Wang--Wei[^dww] in 2007, there exist examples (complex hyperbolic surfaces) with holomorphic $$2$$-forms (i.e. $$H^{2,0}(M,\RR)\neq0$$) but without ICD!
+It took some time for people to realize that this cannot be true. As pointed out by Dai--Wang--Wei[^dww] in 2007, there exist examples (complex hyperbolic surfaces) with holomorphic $$2$$-forms (i.e. $$H^{2,0}(M,\CC)\neq0$$) but without ICD!
 
 ## The solution
 
@@ -100,8 +102,7 @@ In order to see what went wrong, let us revisit the proof of Proposition 8.2.
 
 ### Why anti-symmetric ICD are parallel
 
-Let $$I\Omega^{(2,0)\oplus(0,2)}(M)$$ be an ICD, that is $$d_\Theta I=0$$ and $$\delta_gI=0$$.
-<!-- how is \partial_\Theta related to d? -->
+Let $$I\Omega^{(2,0)\oplus(0,2)}(M)$$ be an ICD, that is $$\bar\partial^\nabla I=0$$ and $$(\bar\partial^\nabla)^\ast I=0$$.
  A Weitzenböck formula[^weitz] by Koiso then implies that
 \\[\nabla^\ast\nabla I+2\firstkind I=0,\\]
 where $$\firstkind: \Lambda^2\to\Lambda^2$$ is the _curvature operator of the first kind_ defined from the Riemannian curvature $$R$$ by
@@ -124,7 +125,7 @@ so parallel and harmonic anti-hermitian 2-forms lie in _different_ eigenspaces o
 
 What's more, note that $$\nabla^\ast\nabla$$ is a _positive-semidefinite_ operator. If $$E>0$$, then any harmonic anti-hermitian 2-form $$I$$ would be an eigenform to $$\nabla^\ast\nabla$$ to the eigenvalue $$-2E<0$$, a contradiction! So there cannot even be harmonic anti-hermitian 2-forms for $$E>0$$.
 
-So that settles it: If $$E=0$$, then anti-symmetric ICD are indeed harmonic, i.e. indeed the space of anti-symmetric ICD is isomorphic to $$H^{2,0}(M,\RR)$$. And if $$E\neq0$$, then there are no anti-symmetric ICD at all, irrespective of what $$H^{2,0}(M,\RR)$$ does.
+So that settles it: If $$E=0$$, then anti-symmetric ICD are indeed harmonic, i.e. indeed the space of anti-symmetric ICD is isomorphic to $$H^{2,0}(M,\CC)$$. And if $$E\neq0$$, then there are no anti-symmetric ICD at all, irrespective of what $$H^{2,0}(M,\CC)$$ does.
 
 ### Aftermath
 
@@ -153,6 +154,7 @@ What's weird is that Koiso's Corollary 9.4 about the dimension of the space of I
 	\\[N_J(X,Y):=[X,Y]-[JX,JY]+J[JX,Y]+J[X,JY]\\]
 	for vector fields $$X,Y$$. Are you happy now?
 	
+[^dolbeault]: I shall not dwell on the origin and meaning of these differential operators, Dolbeault complexes and sheaf cohomology here -- instead, I will return to this topic on some later day. 
 [^KE]: That is, a Kähler manifold $$(M,g,J)$$ where the metric $$g$$ is Einstein.
 [^trace]: The tracelessness is an automatic consequence of being anti-hermitian.
 [^complexified]: If you're uneasy with bundle manipulation, consider the following vector space analogue: A linear endomorphism $$J$$ with $$J^2=-\id$$ of a real vector space $$V$$ is never diagonalizable -- but if $$V$$ is complexified, then the complex-linearly extended $$J$$ has eigenvalues $$\pm\i$$, and the eigenspaces are conjugate.
