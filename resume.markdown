@@ -7,8 +7,8 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Work
 
-* As of 2023: Postdoctoral researcher at Laboratoire de mathématiques d'Orsay, Université Paris-Saclay.
-	I am working with [Andrei Moroianu](http://moroianu.perso.math.cnrs.fr).
+* In Oct 2024 I will be starting at Unicamp as a postdoctoral fellow, funded by FAPESP.
+* 2023-2024: Postdoctoral researcher at Laboratoire de mathématiques d'Orsay, Université Paris-Saclay.
 * 2020-2023: Research associate and teaching assistant at the Institute of Geometry and Topology, University of Stuttgart.
 * 2016-2020: Student assistant at the Department of Mathematics, University of Stuttgart.
 
@@ -20,6 +20,9 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Grants & Support
 
+<!--
+add Procope 2024 and FAPESP 2024-26.
+-->
 * 2023/24: Member of the [*BRIDGES* project](https://anr.fr/Project-ANR-21-CE40-0017), funded by ANR grant [ANR-21-CE40-0017].
 * 2023: Supported by the [*Procope* program](https://www.campusfrance.org/fr/procope) (Project No. 48959TL).
 * 2022: Member of the DFG priority program *[SPP 2026 Geometry at Infinity](https://www.spp2026.de/members-guests/74-member-pages/paul-schwahn-msc)*.
