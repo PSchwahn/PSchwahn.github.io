@@ -7,6 +7,7 @@ My research interests include (but are not limited to) Riemannian geometry, curv
 
 # Publication list
 
+* _Submersion constructions for geometries with parallel skew torsion_ (preprint, 2024), with Andrei Moroianu. [arXiv:2409.14421](https://arxiv.org/abs/2409.14421).
 * _On the rigidity of the complex Grassmannians_ (preprint, 2024), with Uwe Semmelmann. (This will be made into a joint publication with Stuart J. Hall.) [arXiv:2403.04681](https://arxiv.org/abs/2403.04681).
 * _The Lichnerowicz Laplacian on normal homogeneous spaces_, J. Reine Angew. Math. (Crelle's Journal) Vol. 2024, no. 814, pp. 91-115 (2024). DOI [10.1515/crelle-2024-0038](https://doi.org/10.1515/crelle-2024-0038).
 * Doctoral thesis: _Stability of Einstein metrics on homogeneous spaces_ (2023). DOI [10.18419/opus-13515](http://dx.doi.org/10.18419/opus-13515). This cumulative dissertation contains my first four articles together with an expository part.
