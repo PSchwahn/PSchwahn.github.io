@@ -17,4 +17,6 @@ My research interests include (but are not limited to) Riemannian geometry, curv
 
 # Miscellaneous
 
+* _[Grimoire of curvature sign conventions, conditions, operators, and examples]({{"/assets/grimoire.pdf" | relative_url}})_ (2024, work in progress). A reference to clear up the confusion on signs and factors that may arise when manipulating curvature expressions.
+* _[Minimal Submanifolds in Spheres]({{"/assets/minimal_submfds_in_spheres.pdf" | relative_url}})_ (2023). Notes for a lecture at a seminar on submanifolds in Stuttgart.
 * _[Spinors, Dirac Operators and Metric Variations]({{"/assets/spineurs_variations.pdf" | relative_url}})_ (2023). English translation of the 1992 article by Jean-Pierre Bourguignon and Paul Gauduchon.
