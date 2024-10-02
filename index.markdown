@@ -19,4 +19,4 @@ Fig. 2: Me petting the baby hydra while it's getting absolutely demolished by He
 
 <br>
 
-<p style="color: #828282;">Latest update: Sep 29, 2024</p>
+<p style="color: #828282;">Latest update: Oct 2, 2024</p>
