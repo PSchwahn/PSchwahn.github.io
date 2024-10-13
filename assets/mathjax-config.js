@@ -7,7 +7,8 @@ MathJax = {
       dd: "\\mathrm{d}",
       Ric: "\\mathrm{Ric}",
       CC: "\\mathbb{C}",
-      testmacro: "POGGO but better"
+      HH: "\\mathbb{H}",
+      OO: "\\mathbb{O}"
     },
     environments: {
       braced: ["\\left\\{", "\\right\\}"]
