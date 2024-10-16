@@ -77,9 +77,11 @@ satisfying the Jacobi identity. And it should please restrict to the Lie bracket
 \end{align}
 So far this is just restating the decomposition \eqref{g2decomp}. Now comes the fun part: reconstructing the massing parts of the bracket.[^FH]
 
-We would like our bracket to be completely $$\sl(3,\CC)$$-invariant. This is not only equivalent to the Jacobi identity \eqref{jacobi} where any one of $$x,y,z$$ lies in $$\sl(3,\CC)$$, but also heavily restricts the choices we can make. For instance, recall the following: $$\SL(3,\CC)$$ is the group of complex $$3\times3$$-matrices which have determinant equal to 1, or equivalently, which preserve any nonzero three-form $$\omega\in\Lambda^3(\CC^3)^\ast$$ (which we may call the _volume form_). In turn, there is an $$\sl(3,\CC)$$-equivalence $$\Lambda^2\CC^3\cong(\CC^3)^\ast$$, simply by mapping
-\\[v\wedge w\mapsto\omega(v,w,\cdot\,),\\]
-and dually $$\omega: \CC^3\cong\Lambda^3(\CC^3)^\ast$$, $$v\mapsto\omega(v,\cdot\,,\cdot\,)$$. In particular, $$\CC^3\not\cong\Lambda^2\CC^3\cong(\CC^3)^\ast$$ -- so there is no nontrivial alternating bilinear form $$\CC^3\times\CC^3\to\CC^3$$! We may apply similar considerations to other combinations of spaces in decomposition \eqref{g2decomp}, and find that the only nontrivial contributions besides \eqref{obvious1}--\eqref{obvious3} can come from
+We would like our bracket to be completely $$\sl(3,\CC)$$-invariant. This is not only equivalent to the Jacobi identity \eqref{jacobi} where any one of $$x,y,z$$ lies in $$\sl(3,\CC)$$, but also heavily restricts the choices we can make. For instance, recall the following: $$\SL(3,\CC)$$ is the group of complex $$3\times3$$-matrices which have determinant equal to 1, or equivalently, which preserve any nonzero three-form $$\omega\in\Lambda^3(\CC^3)^\ast$$ (which we may call the _volume form_). This volume form gives an $$\sl(3,\CC)$$-equivalence
+\\[\omega: \Lambda^2\CC^3\stackrel{\sim}{\longrightarrow}(\CC^3)^\ast,\qquad v\wedge w\mapsto\omega(v\wedge w):=\omega(v,w,\cdot\,),\\]
+and dually, we have an equivalence
+\\[\omega: \CC^3\stackrel{\sim}{\longrightarrow}\Lambda^3(\CC^3)^\ast,\qquad v\mapsto\omega(v):=v\intprod\omega=\omega(v,\cdot\,,\cdot\,).\\]
+In particular, $$\CC^3\not\cong\Lambda^2\CC^3\cong(\CC^3)^\ast$$ -- so there is no nontrivial alternating bilinear form $$\CC^3\times\CC^3\to\CC^3$$! We may apply similar considerations to other combinations of spaces in decomposition \eqref{g2decomp}, and find that the only nontrivial contributions besides \eqref{obvious1}--\eqref{obvious3} can come from
 \begin{align}
 \CC^3\times\CC^3&\longrightarrow(\CC^3)^\ast,\label{lam2Vtodual}\\\\\
 (\CC^3)^\ast\times(\CC^3)^\ast&\longrightarrow\CC^3,\label{lam2dualtoV}\\\\\
@@ -97,15 +99,86 @@ Because a Lie bracket is alternating, \eqref{dualandVtosl} must simply be the ne
 
 We may construct a bilinear map $$\CC^3\times(\CC^3)^\ast\to\gl(3,\CC)$$ by sending
 \\[(v,\alpha)\mapsto v\alpha,\qquad (v\alpha)w:=\alpha(w)v\\]
-for $$v,w\in\CC^3$$ and $$\alpha\in(\CC^3)^\ast$$ (for my notation to make sense, imagine $$v$$ as a column and $$\alpha$$ as a row vector). This is perfectly $$\sl(3,\CC)$$-invariant, but the result has a trace which we need to subtract in order to land in $$\sl(3,\CC)$$ (the space of _traceless_ complex $$3\times 3$$-matrices). The trace of $$v\alpha\in\gl(3,\CC)$$ is exactly given by $$\alpha(v)$$, so the bracket should look like
+for $$v,w\in\CC^3$$ and $$\alpha\in(\CC^3)^\ast$$ (for my notation to make sense, imagine $$v$$ as a column and $$\alpha$$ as a row vector). This is perfectly $$\sl(3,\CC)$$-invariant, but the result has a trace which we need to cancel out in order to land in $$\sl(3,\CC)$$ (the space of _traceless_ complex $$3\times 3$$-matrices). The trace of $$v\alpha\in\gl(3,\CC)$$ is exactly given by $$\alpha(v)$$, so the bracket should look like
 \begin{equation}
-[v,\alpha]=c\cdot\left(v\alpha-\frac{1}{3}\alpha(v)\id_{3\times 3}\right)
+[v,\alpha]=c\cdot\left(v\alpha-\frac{1}{3}\alpha(v)\id_{3\times 3}\right)\label{Vanddualbracket}
 \end{equation}
 for some $$c\in\CC$$.
 
-All that remains now is to find the right parameters $$a,b,c$$ that verify that Jacobi identity. .......
+All that remains now is to find the right parameters $$a,b,c$$ that verify the Jacobi identity.
 
-Here we see how the seemingly extremely difficult task of constructing an exceptional Lie algebra gets reduced to an equation in three variables by applying invariance principles.
+## Jacobian juggling
+
+As mentioned earlier, because the bracket constructed to far is $$\sl(3,\CC)$$-invariant, it satisfies the Jacobi identity \eqref{jacobi} whenever at least one of the elements $$x,y,z$$ is in $$\sl(3,\CC)$$. By trilinearity and the cyclic nature of the Jacobi identity, it remains to show it for the parts
+\\[\CC^3\times\CC^3\times\CC^3,\quad\CC^3\times\CC^3\times(\CC^3)^\ast,\quad\CC^3\times(\CC^3)^\ast\times(\CC^3)^\ast,\quad(\CC^3)^\ast\times(\CC^3)^\ast\times(\CC^3)^\ast.\\]
+Let's do them one by one. For $$u,v,w\in\CC^3$$, plugging our definitions \eqref{lam2Vtodualbracket} & \eqref{Vanddualbracket} of the bracket into \eqref{jacobi} yields
+\begin{align}
+[u,[v,w]]+[v,[w,u]]+[w,[u,v]]&=a\cdot\left([u,\omega(v\wedge w)]+[v,\omega(w\wedge u)]+[w,\omega(u\wedge v)]\right)\notag\\\\\
+&=ac\cdot\Big(u\omega(v\wedge w)+v\omega(w\wedge u)+w\omega(u\wedge v)\notag\\\\\
+&\qquad\qquad-\frac{1}{3}\left(\omega(v,w,u)+\omega(w,u,v)+\omega(u,v,w)\right)\id_{3\times3}\Big)\notag\\\\\
+&=ac\cdot\left(u\omega(v\wedge w)+v\omega(w\wedge u)+w\omega(u\wedge v)-\omega(u,v,w)\id_{3\times3}\right),\label{Vthricejacobi1}
+\end{align}
+using the antisymmetry of $$\omega$$ in the last step. Hm, that looks messy. But taking a step back and looking at the involved _symmetries_ helps! Notice first that the left hand side of the Jacobi identity \eqref{jacobi} is a _cyclic sum_ (that is, we sum over all _cyclic_ permutations of the arguments) over the double bracket $$[\,\cdot\,,[\,\cdot\,,\cdot\,]]\in\fg^\ast\otimes\Lambda^2\fg^\ast$$. I shall leave it to the reader to check that taking the cyclic sum over a tensor which is (anti-)symmetric in any two arguments results in a tensor that is fully (anti-)symmetric. In this particular case, the cyclic sum maps
+\\[\fg^\ast\otimes\Lambda^2\fg^\ast\longrightarrow\Lambda^3\fg^\ast.\\]
+This means that the left hand side of \eqref{jacobi} depends only on the trivector $$x\wedge y\wedge z$$.
+
+Returning to the Jacobi identity on $$\CC^3\times\CC^3\times\CC^3$$, we now know that the left hand side of \eqref{Vthricejacobi1} depends only on $$u\wedge v\wedge w\in\Lambda^3\CC^3$$ -- which is one-dimensional! We might as well choose a basis $$(e_1,e_2,e_3)$$ of $$\CC^3$$ such that, with the dual basis $$(e^1,e^2,e^3)$$, the volume form is simple $$\omega=e^1\wedge e^2\wedge e^3$$, and then we can write $$u\wedge v\wedge w=\omega(u,v,w)e_1\wedge e_2\wedge e_3$$. And combining this with \eqref{Vthricejacobi1}, we obtain
+\begin{align}
+[u,[v,w]]+[v,[w,u]]+[w,[u,v]]&=ac\omega(u,v,w)\cdot\left(e_1\omega(e_2\wedge e_3)+e_2\omega(e_3\wedge e_1)+e_3\omega(e_1\wedge e_2)-\id_{3\times3}\right)\notag\\\\\
+&=ac\omega(u,v,w)\cdot\left(e_1e^1+e_2e^2+e_3e^3-\id_{3\times3}\right)=0
+\end{align}
+because $$\id_{3\times3}=\sum_ie_ie^i$$.
+
+We can play the same game on $$(\CC^3)^\ast\times(\CC^3)^\ast\times(\CC^3)^\ast$$. For any $$\alpha,\beta,\gamma\in(\CC^3)^\ast$$, the three-form $$\alpha\wedge\beta\wedge\gamma\in\Lambda^3(\CC^3)^\ast$$ must be proportional to $$\omega$$ because $$\Lambda^3(\CC^3)^\ast$$ is one-dimensional. Thus we may write[^fraction]
+\\[\alpha\wedge\beta\wedge\gamma=\frac{\alpha\wedge\beta\wedge\gamma}{\omega}e^1\wedge e^2\wedge e^3.\\]
+Plugging this into \eqref{jacobi} and using the definitions \eqref{lam2dualtoVbracket} & \eqref{Vanddualbracket}, we find
+\begin{align}
+[\alpha,[\beta,\gamma]]+[\beta,[\gamma,\alpha]]+[\gamma,[\alpha,\beta]]&=b\frac{\alpha\wedge\beta\wedge\gamma}{\omega}\cdot\left([e^1,\omega^{-1}(e^2\wedge e^3)]+[e^2,\omega^{-1}(e^3\wedge e^1)]+[e^3,\omega^{-1}(e^1\wedge e^2)]\right)\notag\\\\\
+&=b\frac{\alpha\wedge\beta\wedge\gamma}{\omega}\cdot\left([e^1,e_1]+[e^2,e_2]+[e^3,e_3]\right)\notag\\\\\
+&=-bc\frac{\alpha\wedge\beta\wedge\gamma}{\omega}\cdot\left(e_1e^1+e_2e^2+e_3e^3-\frac{1+1+1}{3}\id_{3\times3}\right)=0.
+\end{align}
+Notice how the vanishing of these terms does not actually depend on the values of $$a,b,c$$. This will change once we start mixing representations.
+
+For $$v,w\in\CC^3$$ and $$\alpha\in(\CC^3)^\ast$$, we use \eqref{lam2Vtodualbracket}, \eqref{Vanddualbracket} & \eqref{obvious2} to calculate
+\begin{align}
+[v,[w,\alpha]]+[w,[\alpha,v]]+[\alpha,[v,w]]&=c\left[v,w\alpha-\frac{1}{3}\alpha(w)\id_{3\times 3}\right]-c\left[w,v\alpha-\frac{1}{3}\alpha(v)\id_{3\times3}\right]+a\left[\alpha,\omega(v\wedge w)\right]\notag\\\\\
+&=\frac{4c}{3}\cdot\left(\alpha(w)v-\alpha(v)w\right)+ab\cdot\omega^{-1}(\alpha\wedge\omega(v\wedge w)).\label{Vtwicedualoncejacobi1}
+\end{align}
+To simplify this further, we may apply the isomorphism $$\omega: \CC^3\to\Lambda^2(\CC^3)^\ast$$ and rewrite a bit to obtain
+\begin{equation}
+\frac{4c}{3}\cdot(\alpha(w)(v\intprod\omega)-\alpha(v)(w\intprod\omega))+ab\cdot\alpha\wedge(w\intprod v\intprod\omega).\label{Vtwicedualoncejacobi2}
+\end{equation}
+Now, let's put to use some classical identities, in this case that the interior product $$v\intprod$$ always acts as an _antiderivation_ for the exterior product, i.e.
+\\[u\intprod(\xi\wedge\eta)=(u\intprod\xi)\wedge\eta+(-1)^{\deg\xi}\xi\wedge(u\intprod\eta)\qquad\forall u\in V,\ \xi,\eta\in\Lambda^\bullet V^\ast\\]
+(where $$V$$ is any vector space). Using this, we may calculate
+\begin{equation}
+w\intprod v\intprod(\alpha\wedge\omega)=w\intprod(\alpha(v)\omega-\alpha\wedge(v\intprod\omega))=\alpha(v)(w\intprod\omega)-\alpha(w)(v\intprod\omega)+\alpha\wedge(w\intprod v\intprod\omega).\label{fourform}
+\end{equation}
+But $$\alpha\wedge\omega$$ is a four-form on $$\CC^3$$ -- meaning it, and thus the left hand side of \eqref{fourform}, must be zero! Using this identity, we can rewrite \eqref{Vtwicedualoncejacobi2} into
+\\[\left(\frac{4c}{3}+ab\right)\cdot\alpha\wedge(w\intprod v\intprod\omega),\\]
+and since $$\omega$$ is nondegenerate this can only vanish identically for all $$v,w,\alpha$$ if
+\begin{equation}
+\frac{4c}{3}+ab=0.\label{jacobicond}
+\end{equation}
+The calculation for the last remaining triple $$\CC^3\times(\CC^3)^\ast\times(\CC^3)^\ast$$ works similarly, only reversing the roles of $$\CC^3$$ and $$(\CC^3)^\ast$$. I'll leave it as an exercise to show that it yields the same condition \eqref{jacobicond}.
+
+## The finishing touches
+
+In the last section, we saw how the seemingly daunting task of constructing an exceptional Lie algebra gets reduced to an equation in three variables by applying invariance principles. Now what we have actually obtained is not just one Lie bracket, but an entire _family_ of them, depending on parameters $$a,b,c\in\CC$$, constrained by equation \eqref{jacobicond}. I will suggestively denote them by $$[\,\cdot\,,\cdot\,]_{a,b,c}$$ to distinguish between them.
+
+We know that the actual Lie bracket of $$\fg_2$$ has to lie somewhere in this family, but which is it?
+
+Suppose first that one of the parameters is zero: say $$b=0$$ (and thus $$c=0$$). This means that the parts \eqref{lam2dualtoV} -- \eqref{dualandVtosl} of the bracket would vanish. In particular, $$\CC^3\oplus(\CC^3)^\ast$$ would be a (nilpotent) ideal of the Lie algebra (same if $$a=0$$). But $$\fg_2$$ is simple, meaning it cannot have any nontrivial ideals! So we have to take $$a,b,c$$ to be nonzero.
+
+An arbitrary choice for $$a,b,c$$ satisfying \eqref{jacobicond} would for example be
+\\[a=2,\qquad b=-2,\qquad c=3.\\]
+So let $$[\,\cdot\,,\cdot\,]:=[\,\cdot\,,\cdot\,]_{2,-2,3}$$. It is indeed the case that the brackets $$[\,\cdot\,,\cdot\,]_{a,b,c}$$ with $$a,b,c\neq0$$ give rise to isomorphic Lie algebras -- I have worked out an isomorphism:[^cbrt]
+\\[(\sl(3,\CC)\oplus\CC^3\oplus(\CC^3)^\ast,[\,\cdot\,,\cdot\,])\stackrel{\sim}{\to}(\sl(3,\CC)\oplus\CC^3\oplus(\CC^3)^\ast,[\,\cdot\,,\cdot\,]_{a,b,c}),\qquad (X,v,\alpha)\mapsto\left(X,-\frac{2}{\sqrt[3]{a^2b}}v,\frac{2}{\sqrt[3]{ab^2}}\alpha\right).\\]
+And since there's no other option, these must be isomorphic to the simple Lie algebra $$\fg_2$$. That's it. End of story?
+
+## The root system of type $$G_2$$
+
+## Constructions of $$G_2$$ from other subalgebras
 
 
 # Footnotes
@@ -131,3 +204,6 @@ Here we see how the seemingly extremely difficult task of constructing an except
     W. Fulton, J. Harris: [Representation Theory: A First Course](https://doi.org/10.1007/978-1-4612-0979-9), Graduate Texts in Mathematics **129**, Springer (2004).
     
     However, it discusses first the root system of $$\fg_2$$ and uses it to infer the bracket, while this post tries to showcase the construction purely intrinsically.
+
+[^fraction]: This way of dividing differential forms is legitimate since they live in a one-dimensional vector space. Now there are actually people who use this as a justification to argue that of course, $$\frac{\dd f}{\dd x}$$ is a fraction (if $$f$$ is a differentiable function of one variable). While technically true once one has jumped through the hoop of learning exterior calculus, I'll leave it to you to decide whether this is a good didactical approach for first-time students of (ordinary) calculus...
+[^cbrt]: Oh yeah, complex numbers, right. The cube roots have to be chosen such that $$\sqrt[3]{a^2b}\cdot\sqrt[3]{ab^2}=ab$$.
