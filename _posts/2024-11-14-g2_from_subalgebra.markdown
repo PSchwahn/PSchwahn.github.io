@@ -75,7 +75,7 @@ satisfying the Jacobi identity. And it should please restrict to the Lie bracket
 [X,v]&=Xv&&\forall X\in\sl(3,\CC),\ v\in\CC^3,\label{obvious2}\\\\\
 [X,\alpha]&=\alpha X&&\forall X\in\sl(3,\CC),\ \alpha\in(\CC^3)^\ast.\label{obvious3}
 \end{align}
-So far this is just restating the decomposition \eqref{g2decomp}. Now comes the fun part: reconstructing the massing parts of the bracket.[^FH]
+So far this is just restating the decomposition \eqref{g2decomp}. Now comes the fun part: reconstructing the missing parts of the bracket.[^FH]
 
 We would like our bracket to be completely $$\sl(3,\CC)$$-invariant. This is not only equivalent to the Jacobi identity \eqref{jacobi} where any one of $$x,y,z$$ lies in $$\sl(3,\CC)$$, but also heavily restricts the choices we can make. For instance, recall the following: $$\SL(3,\CC)$$ is the group of complex $$3\times3$$-matrices which have determinant equal to 1, or equivalently, which preserve any nonzero three-form $$\omega\in\Lambda^3(\CC^3)^\ast$$ (which we may call the _volume form_). This volume form gives an $$\sl(3,\CC)$$-equivalence
 \\[\omega: \Lambda^2\CC^3\stackrel{\sim}{\longrightarrow}(\CC^3)^\ast,\qquad v\wedge w\mapsto\omega(v\wedge w):=\omega(v,w,\cdot\,),\\]
@@ -329,7 +329,7 @@ The (complex) Lie algebra $$\sl(2,\CC)$$ is of type $$A_1$$, and its root system
 </script>
 </p>
 
-For a direct of sum Lie algebras, the root system is just the cartesian product of the root system of the factors:
+For a direct sum of Lie algebras, the root system is just the Cartesian product of the root system of the factors:
 
 <p align="center">
 <script type="text/tikz">
@@ -431,9 +431,9 @@ This was a long post. Time to rest.
 
 [^fraction]: This way of dividing differential forms is legitimate since they live in a one-dimensional vector space. Now there are actually people who use this as a justification to argue that _of course, $$\frac{\dd f}{\dd x}$$ is a fraction_ (if $$f$$ is a differentiable function of one variable). While technically true once one has jumped through the hoop of learning exterior calculus, I'll leave it to you to decide whether this is a good didactical approach for first-time students of (ordinary) calculus...
 [^cbrt]: Oh yeah, complex numbers, right. The cube roots have to be chosen such that $$\sqrt[3]{a^2b}\cdot\sqrt[3]{ab^2}=ab$$.
-[^semisimple]: A Lie algebra $$\fg$$ is called _semisimple_ if $$\fg=[\fg,\fg]$$, or equivalently, if $$\fg$$ has no solvable ideals. Every semisimple Lie algebra is isomorphic to a sum of simple ideals (_simple_ = no nontrivial ideals at all).
+[^semisimple]: Similar to groups, there are basically two "worlds" of Lie algebras: the _solvable_ ones and the _semisimple_ ones. A Lie algebra $$\fg$$ is called _semisimple_ if $$\fg$$ has no solvable ideals. By the _Levi decomposition theorem_ every Lie algebra over $$\CC$$ can be written as a semidirect product of a semisimple subalgebra and a solvable ideal. Every semisimple Lie algebra is isomorphic to a sum of simple ideals (_simple_ = no nontrivial ideals at all).
 [^tinprod]: Don't worry, there exists a canonical inner product on the root lattice making this precise. This allows us to think of a root system as living in some Euclidean space.
-[^symmetric]: Symmetric spaces are the best-behaved homogeneous spaces, in a sense. Roughly, a symmetric space is a manifold which has a reflection symmetry through each point. If $$G/K$$ is a symmetric space, with a $$K$$-invariant decomposition of the adjoint representation $$\fg=\fk\oplus\fp$$, then the bracket relation $$[\fp,\fp]\subset\fk$$ is satisfied. Conversely, any homogeneous space with this property is symmetric.
+[^symmetric]: Symmetric spaces are the best-behaved homogeneous spaces, in a sense. Roughly, a symmetric space is a manifold which has a reflection symmetry through each point. This implies that it has a transitive group $$G$$ of symmetries and can thus be written as a homogeneous space $$G/K$$, where $$K$$ is the stabilizer of a point. If $$G/K$$ is a symmetric space, with a $$K$$-invariant decomposition of the adjoint representation $$\fg=\fk\oplus\fp$$, then the bracket relation $$[\fp,\fp]\subset\fk$$ is satisfied. Conversely, any homogeneous space with this property is symmetric.
 [^draperpalomo]: C. Draper, F. J. Palomo: [Reductive homogeneous spaces of the compact Lie group $$G_2$$](https://doi.org/10.1007/978-3-031-32707-0_3), in: Non-Associative Algebras and Related Topics NAART II, Springer Proceedings in Mathematics & Statistics **427**, Springer, 2023.
 [^dixmier]: J. Dixmier: [Certaines algèbres non associatives simples définies par la transvection des formes binaires](https://doi.org/10.1515/crll.1984.346.110), J. Reine Angew. Math. **346**, 110–128 (1984).
 [^nonassoc]: M. Bremner, I. Hentzel: [Invariant nonassociative algebra structures on irreducible representations of simple Lie algebras](https://doi.org/10.1080/10586458.2004.10504536), Experiment. Math. **13** (2), 231-256 (2004).
