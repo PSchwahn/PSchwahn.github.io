@@ -26,4 +26,4 @@ Fig. 3: Me visiting MoMath (National Museum of Mathematics, New York) in June 20
 
 <br>
 
-<p style="color: #828282;">Latest update: June 9, 2025</p>
+<p style="color: #828282;">Latest update: July 3, 2025</p>
