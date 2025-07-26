@@ -3,11 +3,12 @@ layout: page
 title: Research
 permalink: /research/
 ---
-My research interests include (but are not limited to) Riemannian geometry, curvature, special holonomy, geometric analysis, manifolds with symmetries and Lie theory.
+My research interests include (but are not limited to) Riemannian geometry, curvature, special holonomy, geometric analysis, manifolds with symmetries and Lie theory. Recently I have also started dabbling in formalization of mathematics.
 
 # Publication list
 
-1. **Formalizing a classification theorem for low-dimensional solvable Lie algebras in Lean** (preprint, 2025), with Viviana del Barco, Gustavo Infanti and Exequiel Rivas. [ 	arXiv:2505.19975](https://arxiv.org/abs/2505.19975).
+1. **Einstein metrics, their moduli spaces and stability** (survey, preprint, 2025), with Uwe Semmelmann. [arXiv:2507.18463](https://arxiv.org/abs/2507.18463).
+1. **Formalizing a classification theorem for low-dimensional solvable Lie algebras in Lean** (preprint, 2025), with Viviana del Barco, Gustavo Infanti and Exequiel Rivas. [arXiv:2505.19975](https://arxiv.org/abs/2505.19975).
 1. **Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras** (preprint, 2024), with Stuart J. Hall and Uwe Semmelmann. [arXiv:2412.08770](https://arxiv.org/abs/2412.08770).
 1. **Submersion constructions for geometries with parallel skew torsion** (preprint, 2024), with Andrei Moroianu. [arXiv:2409.14421](https://arxiv.org/abs/2409.14421).
 1. **On the rigidity of the complex Grassmannians**, Trans. AMS, vol. 378, no. 6, pp. 4335-4367 (2025), with Stuart J. Hall and Uwe Semmelmann. DOI [10.1090/tran/9402](https://doi.org/10.1090/tran/9402)
