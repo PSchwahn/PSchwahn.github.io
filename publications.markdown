@@ -20,8 +20,7 @@ My research interests include (but are not limited to) Riemannian geometry, curv
 
 # Miscellaneous
 
-* BRIDGES lectures [$$G_2$$ in action, and a mathematical theory of exceptions](https://arxiv.org/abs/2508.12757) (2025). Lecture notes for a summer school course at the [BRIDGES meeting 2024](https://bridges.geotop.ime.unicamp.br/) in Cargèse which Vladimiro Benedetti, Gaia Comaschi, Alan Muniz, and I helped write. 
-* A [SageMath Jupyter notebook]({{"/assets/Sage_LiE_Demo.ipynb" | relative_url}}) and accompanying [LiE files]({{"/assets/lie_demo.zip" | relative_url}}) used at a software demo (_Lie theory and branching in LiE and SageMath_) which I gave at the _Problem-Solving Workshop Computational Geometric Analysis_ at CUNY (2025).
+* Ongoing formalization project (in Lean) on the foundations of [synthetic incidence geometry](https://github.com/PSchwahn/IncidenceGeometry/), focusing on affine and projective spaces, in particular finite ones.
+* BRIDGES lectures [$$G_2$$ in action, and a mathematical theory of exceptions](https://arxiv.org/abs/2508.12757) (2025). Lecture notes for a summer school course by Laurent Manivel at the [BRIDGES meeting 2024](https://bridges.geotop.ime.unicamp.br/) in Cargèse which Vladimiro Benedetti, Gaia Comaschi, Alan Muniz, and I helped write. 
 * _[Grimoire of curvature sign conventions, conditions, operators, and examples]({{"/assets/grimoire.pdf" | relative_url}})_ (2025, work in progress). A reference to clear up the confusion on signs and factors that may arise when manipulating curvature expressions.
-* _[Minimal Submanifolds in Spheres]({{"/assets/minimal_submfds_in_spheres.pdf" | relative_url}})_ (2023). Notes for a lecture at a seminar on submanifolds in Stuttgart.
 * _[Spinors, Dirac Operators and Metric Variations]({{"/assets/spineurs_variations.pdf" | relative_url}})_ (2023). English translation of the 1992 article by Jean-Pierre Bourguignon and Paul Gauduchon.

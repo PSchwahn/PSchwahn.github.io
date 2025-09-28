@@ -16,3 +16,10 @@ permalink: /events/
 * May 2023: [Virtual Seminar on Geometry with Symmetries](https://www.youtube.com/watch?v=SFCUYeeSouE)
 * July 2021: [Mathematical Congress of the Americas](https://www.youtube.com/watch?v=yO92Wj7Nefs)
 * [Click here](https://www.f08.uni-stuttgart.de/mathematik/aktuelles/news/Interview-mit-Paul-Schwahn-B.Sc./) for an interview (in German) with baby-me from 2018.
+
+For unrecorded talks, check out my [CV]({{"/cv/" | relative_url}}).
+
+# Resources
+
+* A [SageMath Jupyter notebook]({{"/assets/Sage_LiE_Demo.ipynb" | relative_url}}) and accompanying [LiE files]({{"/assets/lie_demo.zip" | relative_url}}) used at a software demo (_Lie theory and branching in LiE and SageMath_) which I gave at the _Problem-Solving Workshop Computational Geometric Analysis_ at CUNY (2025).
+* _[Minimal Submanifolds in Spheres]({{"/assets/minimal_submfds_in_spheres.pdf" | relative_url}})_ (2023). Notes for a lecture at a seminar on submanifolds in Stuttgart.
