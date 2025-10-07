@@ -17,7 +17,7 @@ permalink: /events/
 * July 2021: [Mathematical Congress of the Americas](https://www.youtube.com/watch?v=yO92Wj7Nefs)
 * [Click here](https://www.f08.uni-stuttgart.de/mathematik/aktuelles/news/Interview-mit-Paul-Schwahn-B.Sc./) for an interview (in German) with baby-me from 2018.
 
-For unrecorded talks, check out my [CV]({{"/cv/" | relative_url}}).
+For a list of unrecorded talks, check out my [CV]({{"/cv/" | relative_url}}).
 
 # Resources
 
