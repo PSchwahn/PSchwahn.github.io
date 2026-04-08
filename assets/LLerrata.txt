@@ -1,0 +1,7 @@
+p. 93: from isotropy irreducible families, it's 4+3+21+11+21=60 stable examples instead of 51.
+
+Table 1:
+E for Family IV should be 3/8 + (8-n)/(8n(n+1)).
+E for Family VI should be 1/4 + n/((2n-3)(n+1)(n-1)).
+E for Family XV should be 1/4 + (2n+1)/(4n(4n^2-1).
+This does not affect the validity of the computational stability results, as the Einstein constant was recalculated by the computer in each case.
