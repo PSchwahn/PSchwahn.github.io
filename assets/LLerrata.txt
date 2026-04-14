@@ -1,5 +1,7 @@
 p. 93: from isotropy irreducible families, it's 4+3+21+11+21=60 stable examples instead of 51.
 
+Equation (2.6), Lemma 3.2 and subsequent formulas relating tensors/differential operators to Casimir operators: this requires that the reductive decomposition g = h + m is orthogonal with respect to the invariant inner product Q. This is automatically the case for the spaces considered in the article, but in cases such as (G x G)/diag(G) or S^{4n+3} = Sp(n+1)Sp(1)/Sp(n)Sp(1) the reductive decomposition is not unique. 
+
 Table 1:
 E for Family IV should be 3/8 + (8-n)/(8n(n+1)).
 E for Family VI should be 1/4 + n/((2n-3)(n+1)(n-1)).
