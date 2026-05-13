@@ -7,6 +7,7 @@ My research interests include (but are not limited to) Riemannian geometry, curv
 
 # Publication list
 
+1. **Balanced subsets in root systems** (preprint, 2026), with Andrei Moroianu. [arXiv:2605.11219](https://arxiv.org/abs/2605.11219).
 1. **Einstein metrics, their moduli spaces and stability** (survey, preprint, 2025), with Uwe Semmelmann. [arXiv:2507.18463](https://arxiv.org/abs/2507.18463).
 1. **Formalizing a Classification Theorem for Low-Dimensional Solvable Lie Algebras in Lean** (2025), with Viviana del Barco, Gustavo Infanti and Exequiel Rivas. In: V. de Paiva, P. Koepke (eds.), _Intelligent Computer Mathematics_. CICM 2025. Lecture Notes in Artificial Intelligence, vol. 16136, Springer. DOI [10.1007/978-3-032-07021-0_18](https://doi.org/10.1007/978-3-032-07021-0_18).
 1. **Sandwich operators and Einstein deformations of compact symmetric spaces related to Jordan algebras** (preprint, 2024), with Stuart J. Hall and Uwe Semmelmann. [arXiv:2412.08770](https://arxiv.org/abs/2412.08770).
