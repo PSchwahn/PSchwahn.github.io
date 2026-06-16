@@ -7,6 +7,7 @@ My research interests include (but are not limited to) Riemannian geometry, curv
 
 # Publication list
 
+1. **The Standard Model Gauge Group from the Exceptional Jordan Algebra** (preprint, 2026), with John C. Baez. [arXiv:2606.15235](https://arxiv.org/abs/2606.15235).
 1. **Geometries with parallel, skew-symmetric and closed torsion** (preprint, 2026), with Andrei Moroianu. [arXiv:2605.13227](https://arxiv.org/abs/2605.13227).
 1. **Balanced subsets in root systems** (preprint, 2026), with Andrei Moroianu. [arXiv:2605.11219](https://arxiv.org/abs/2605.11219).
 1. **Einstein metrics, their moduli spaces and stability** (survey, preprint, 2025), with Uwe Semmelmann. [arXiv:2507.18463](https://arxiv.org/abs/2507.18463).
