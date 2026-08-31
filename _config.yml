@@ -34,10 +34,6 @@ mastodon:
 github_username:  pschwahn
 orcid: 0000-0003-0718-3949
 
-collections:
-  kaltenwiki:
-    output: true
-
 # Build settings
 # theme: minima
 plugins:
