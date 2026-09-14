@@ -12,9 +12,10 @@ permalink: /events/
 
 # Recorded talks & interviews
 
-* July 2023: [Einstein Spaces and Special Geometry](https://www.mittag-leffler.se/activities/einstein-spaces-and-special-geometry/), Institut Mittag-Leffler
-* May 2023: [Virtual Seminar on Geometry with Symmetries](https://www.youtube.com/watch?v=SFCUYeeSouE)
-* July 2021: [Mathematical Congress of the Americas](https://www.youtube.com/watch?v=yO92Wj7Nefs)
+* July 2026: [Projective geometry, Jordan algebras and the Standard Model gauge group](https://www.youtube.com/watch?v=GfydMLvLKXg), Workshop on Exceptional Structures and the Standard Model (University of Edinburgh)
+* July 2023: [The Lichnerowicz Laplacian on normal homogeneous spaces](https://www.mittag-leffler.se/activities/einstein-spaces-and-special-geometry/), Einstein Spaces and Special Geometry (Institut Mittag-Leffler)
+* May 2023: [The Lichnerowicz Laplacian on normal homogeneous spaces](https://www.youtube.com/watch?v=SFCUYeeSouE), Virtual Seminar on Geometry with Symmetries
+* July 2021: [Rigidity and stability of Einstein metrics on homogeneous spaces](https://www.youtube.com/watch?v=yO92Wj7Nefs), Mathematical Congress of the Americas
 * [Click here](https://www.f08.uni-stuttgart.de/mathematik/aktuelles/news/Interview-mit-Paul-Schwahn-B.Sc./) for an interview (in German) with baby-me from 2018.
 
 For a list of all research talks I've given, check out my [CV]({{"/cv/" | relative_url}}).
