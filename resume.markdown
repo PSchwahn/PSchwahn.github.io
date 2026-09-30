@@ -7,7 +7,9 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Work
 
-* As of Oct 2024: Postdoctoral researcher at IMECC, Universidade Estadual de Campinas.
+* As of Nov 2026: Visiting researceher at the Mathematical Institute of the University of Oxford.
+* As of Oct 2026: Research associate at the Mathematical Institute of the University of Münster.
+* 2024-2026: Postdoctoral researcher at IMECC, Universidade Estadual de Campinas.
 * 2023-2024: Postdoctoral researcher at Laboratoire de mathématiques d'Orsay, Université Paris-Saclay.
 * 2020-2023: Research associate and teaching assistant at the Institute of Geometry and Topology, University of Stuttgart.
 * 2016-2020: Student assistant at the Department of Mathematics, University of Stuttgart.
@@ -20,6 +22,7 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Grants & Support
 
+* 2026-2028: DAAD PRIME fellow.
 * 2024-2026: Fellow of FAPESP (Project 2024/08127-4: Laplacians on homogeneous spaces), under the *BRIDGES* collaboration.
 * 2023/24: Member of the [*BRIDGES* project](https://anr.fr/Project-ANR-21-CE40-0017), funded by ANR grant [ANR-21-CE40-0017].
 * 2023/24: Supported by the [*Procope* program](https://www.campusfrance.org/fr/procope) (Project No. 48959TL).
