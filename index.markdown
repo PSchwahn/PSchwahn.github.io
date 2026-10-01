@@ -4,6 +4,10 @@ layout: default
 
 <p>{{- site.description | escape -}}</p>
 
+As of November 2026 I am also a visiting researcher at the University of Oxford.
+
+Previously I have held postdoc positions at Paris-Saclay and Unicamp, after completing my PhD in Stuttgart.
+
 <div align="center" style="overflow:hidden;">
    <img src="/assets/lookatthisdude.jpg" alt="Me in Rio" style="margin:-25% 0px -5% 0px;">
 </div>
@@ -26,4 +30,4 @@ Fig. 3: Me visiting MoMath (National Museum of Mathematics, New York) in June 20
 
 <br>
 
-<p style="color: #828282;">Latest update: September 30, 2026</p>
+<p style="color: #828282;">Latest update: October 1, 2026</p>

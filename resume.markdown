@@ -7,7 +7,7 @@ This is a short overview of my academic career. A detailed CV is available [here
 
 # Work
 
-* As of Nov 2026: Visiting researceher at the Mathematical Institute of the University of Oxford.
+* As of Nov 2026: Visiting researcher at the Mathematical Institute of the University of Oxford.
 * As of Oct 2026: Research associate at the Mathematical Institute of the University of Münster.
 * 2024-2026: Postdoctoral researcher at IMECC, Universidade Estadual de Campinas.
 * 2023-2024: Postdoctoral researcher at Laboratoire de mathématiques d'Orsay, Université Paris-Saclay.
