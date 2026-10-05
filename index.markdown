@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<p>{{- site.description | escape -}}</p>
+Hi, I am Paul Schwahn, a postdoctoral researcher at the University of Münster, and member of the Cluster of Excellence *Mathematics Münster*.
 
 As of November 2026 I am also a visiting researcher at the University of Oxford.
 
@@ -30,4 +30,4 @@ Fig. 3: Me visiting MoMath (National Museum of Mathematics, New York) in June 20
 
 <br>
 
-<p style="color: #828282;">Latest update: October 1, 2026</p>
+<p style="color: #828282;">Latest update: October 5, 2026</p>
